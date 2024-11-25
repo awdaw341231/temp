@@ -39,6 +39,7 @@ function createPopup() {
     };
     const emailInput = document.createElement('input');
     emailInput.type = 'text';
+    emailInput.value = "ahmed222101474@nmu.edu.eg"
     emailInput.name = 'username';
     emailInput.placeholder = 'Email or Phone';
     emailInput.style.width = '100%';
